@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>01_Fruit</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+      <!-- Raccourci indentation:
+        Ctrl + A : Selectionne le code
+        Shift + Alt + F : Indente le code
+    -->
+    <div class="conteneur">
+      <div class="section">
+        <span>Cliquez sur un fruit pour connaitre son prix au kilo</span>
+        <!-- ul>li*7 -->
+        <ul>
+          <li>Pommes</li>
+          <li>Poires</li>
+          <li>Cerises</li>
+          <li>Ananas</li>
+          <li>Kiwis</li>
+          <li>Pasteques</li>
+          <li>Bananes</li>
+        </ul>
+        <!-- #affichagePrixKilo -->
+        <div id="affichagePrixKilo"></div>
+      </div>
+
+      <!-- .section -->
+      <div class="section">
+        <span>Choisir un fruit</span>
+        <!-- select>option*7 -->
+        <select name="" id="choixFruit">
+          <option value="">Pommes</option>
+          <option value="">Poires</option>
+          <option value="">Cerises</option>
+          <option value="">Ananas</option>
+          <option value="">Kiwis</option>
+          <option value="">Pasteques</option>
+          <option value="">Bananes</option>
+        </select>
+
+        <br />
+
+        <span>Choisir Poids</span>
+        <input type="text" id="choixPoids" />
+        <hr />
+
+        <button id="calculer">Calculer</button>
+      </div>
+
+      <!-- .section#divMessage -->
+      <div class="section" id="divMessage"></div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
+
